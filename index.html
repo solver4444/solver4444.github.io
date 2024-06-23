@@ -10,70 +10,10 @@
      -->
     <title>Home</title>
     <style>
-        /* Font import */
-        @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
-
-        /* Base styling */
-        body {
-            font-family: 'Roboto Mono', monospace;
-            background-color: #4d4d4d;
-            margin: 20;
-            padding: 20;
-            color: #f5f1e6;
-            font-size: 14px;
-        }
-
-        /* Paragraph styling */
-        p {
-            margin: 40px;
-        }
-
-        /* Link styling */
-        a {
-            color: #3e8ded;
-        }
-        
-        /* Title styling */
-        .title {
-            text-align: center;
-            margin: 20px 20px;
-            font-size: 40px;
-            margin-top: 120px; /* To avoid hitting navbar */
-        }
-
-        /* Navbar styling */
-        .navbar {
-            background-color: #3a3a3a;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            padding: 10px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            position: fixed;
-            flex-wrap: wrap;
-            border-radius: 8px;
-            width: calc(100% - 80px);
-            left: 50%;
-            transform: translateX(-50%);
-            top: 20px;
-        }
-
-        .navbar a {
-            color: #f5f1e6;
-            text-align: center;
-            padding: 10px;
-            text-decoration: none;
-            transition: color 1s, background-color 1s;
-            margin: 0 10px;
-            border-radius: 4px;
-        }
-
-        .navbar a:hover {
-            background-color: #1a1a1a;
-            font-weight: 6px;
-        }
-        
+        @import url("styling.css");
     </style>
+</head>
+<body>
     <div class="navbar">
         <a href="">Home</a>
         <a href="arcade-projects">Arcade Projects</a>
@@ -85,5 +25,5 @@
     
     <p>Hello and welcome to my website! It is still in development, so if something seems off, thats probably normal :)</p>
     <p>I initially started this project out for everything I'm doing in <a href="https://hackclub.com/arcade">Hack Club's Arcade</a> (which you can find <a href="arcade-projects">here</a>), but instead I'm going to use this website to talk about anything that I am working on (most notably swerve for FTC).</p>
-</head>
+</body>
 </html>
