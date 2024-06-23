@@ -16,20 +16,52 @@
         /* Base styling */
         body {
             font-family: 'Roboto', sans-serif;
-            background-color: #1a1a1a;
+            background-color: #4d4d4d;
             margin: 40;
             padding: 20;
-            color: #ffffff;
+            color: #f5f1e6;
             font-size: 14px;
         }
-
+        
+        /* Title styling */
         .title {
             text-align: center;
             margin: 20px 20px;
             font-size: 40px;
         }
+
+        /* Navbar styling */
+        .navbar {
+            background-color: #3a3a3a;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            position: relative; /* Allows for absolute positioning of search bar */
+            flex-wrap: wrap;
+        }
+
+        .navbar a {
+            color: #f5f1e6;
+            text-align: center;
+            padding: 20px 20px;
+            text-decoration: none;
+            transition: color 0.3s, background-color 0.3s;
+            margin: 0 10px;
+            border-radius: 4px;
+            text-color: #000000;
+        }
+
+        .navbar a:hover {
+            background-color: #1a1a1a;
+            color: #2a2a2a;
+        }
         
     </style>
+    <div class="navbar">
+        <a href="youtube.com">Youtube (test button)</a>
+        <a href="github.com">GitHub</a>
     <div class="title">
         <h1>solver4444's website</h1>
     </div>
