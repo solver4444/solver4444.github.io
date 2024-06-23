@@ -17,10 +17,15 @@
         body {
             font-family: 'Roboto Mono', monospace;
             background-color: #4d4d4d;
-            margin: 40;
+            margin: 20;
             padding: 20;
             color: #f5f1e6;
             font-size: 14px;
+        }
+
+        /* Paragraph styling */
+        p {
+            margin: 40px;
         }
         
         /* Title styling */
@@ -38,7 +43,7 @@
             align-items: center;
             padding: 40px 40px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            position: relative; /* Allows for absolute positioning of search bar */
+            position: absolute;
             flex-wrap: wrap;
             border-radius: 8px;
         }
@@ -60,12 +65,18 @@
         
     </style>
     <div class="navbar">
-        <a href="home">Home</a>
+        <a href="">Home</a>
         <a href="arcade-projects">Arcade Projects</a>
     </div>
     <div class="title">
         <h1>solver4444's website</h1>
     </div>
+    
     <p>Hello and welcome to my website! It is still in development, so if something seems off, thats probably normal :)</p>
+    <p>
+        I initially started this project out for everything I'm doing in <a href="https://hackclub.com/arcade">Hack Club's Arcade</a> 
+        (which you can find <a href="arcade-projects">here</a>), but instead I'm going to use this website to talk about anything that 
+        I am working on (most notably swerve for FTC).
+    </p>
 </head>
 </html>
