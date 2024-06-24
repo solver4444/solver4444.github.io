@@ -26,7 +26,7 @@ a {
     text-align: center;
     margin: 20px 20px;
     font-size: 40px;
-    margin-top: 100px; /* To avoid hitting navbar */
+    margin-top: 116px; /* To avoid hitting navbar */
 }
 
 /* Blog post styling */
@@ -44,7 +44,6 @@ details {
 summary {
     padding: 20px;
     font-size: 20px;
-    border-radius: 8px;
     transition: background-color 1s, color 1s;
     list-style: none;
     background-color: #3a3a3a;
