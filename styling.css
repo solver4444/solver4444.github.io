@@ -47,6 +47,7 @@ summary {
     transition: background-color 1s, color 1s;
     list-style: none;
     background-color: #3a3a3a;
+    border-radius: 0px;
 }
 
 summary:hover {
