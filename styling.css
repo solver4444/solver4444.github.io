@@ -28,3 +28,34 @@ a {
     font-size: 40px;
     margin-top: 120px; /* To avoid hitting navbar */
 }
+
+/* Blog post styling */
+.details {
+    text-align: left;
+    width: calc(100% - 80px);
+    border-radius: 8px;
+    border: solid, 4px;
+    border-color: #1a1a1a;
+}
+
+.details > summary {
+    background-color: #3a3a3a;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin: 10px;
+    width: calc(100% - 80px);
+    font-size: 18px;
+    border-radius: 8px;
+    transition: color 1s, background-color 1s;
+    border-color: #2a2a2a;
+}
+
+.details > summary:hover {
+    background-color: #2a2a2a;
+    transition: color 1s, background-color 1s;
+}
+
+.details > p {
+    padding: 10px;
+    font-size: 14px;
+}
