@@ -51,10 +51,10 @@ summary {
 
 summary:hover {
     transition: color 1s, background-color 1s;
-    color: #2a2a2a;
+    background-color: #2a2a2a;
 }
 
-details > p {
+details p {
     padding: 4px;
     font-size: 14px;
 }
