@@ -30,17 +30,19 @@ a {
 }
 
 /* Blog post styling */
-.details {
+details {
+    display: flex;
     text-align: left;
     width: calc(100% - 80px);
     border-radius: 8px;
     border: solid, 4px;
     border-color: #1a1a1a;
     margin: 40px;
-    display: flex;
+    padding: 10px;
+    background-color: #3a3a3a;
 }
 
-.details > summary {
+summary {
     background-color: #3a3a3a;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 10px;
@@ -53,12 +55,12 @@ a {
     list-style: none;
 }
 
-.details > summary:hover {
+summary:hover {
     background-color: #2a2a2a;
     transition: color 1s, background-color 1s;
 }
 
-.details > p {
+details > p {
     padding: 10px;
     font-size: 14px;
 }
