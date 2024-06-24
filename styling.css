@@ -45,16 +45,17 @@ summary {
     padding: 20px;
     font-size: 20px;
     border-radius: 8px;
-    transition: color 1s, background-color 1s;
+    transition: background-color 1s, color 1s;
     list-style: none;
 }
 
 summary:hover {
-    transition: color 1s, background-color 1s;
+    transition: background-color 1s, color 1s;
     background-color: #2a2a2a;
 }
 
 details p {
-    padding: 4px;
+    padding: 8px;
+    margin: 8px;
     font-size: 14px;
 }
