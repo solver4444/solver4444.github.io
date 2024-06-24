@@ -47,7 +47,7 @@ summary {
     transition: background-color 1s, color 1s;
     list-style: none;
     background-color: #3a3a3a;
-    border-radius: 0px;
+    border-radius: 2px 2px 0px 0px;
 }
 
 summary:hover {
@@ -56,6 +56,6 @@ summary:hover {
 
 #blog-text {
     padding: 8px;
-    margin: 8px;
+    margin: 0px;
     font-size: 14px;
 }
