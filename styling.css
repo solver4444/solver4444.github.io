@@ -37,7 +37,7 @@ a {
     border: solid, 4px;
     border-color: #1a1a1a;
     margin: 40px;
-    body: flex;
+    display: flex;
 }
 
 .details > summary {
