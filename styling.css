@@ -33,9 +33,9 @@ a {
 details {
     display: flex;
     text-align: left;
-    width: calc(100% - 80px);
     margin: 40px;
     background-color: #3a3a3a;
+    border-radius: 8px;
     border-radius: 8px;
     border-color: #2a2a2a;
     border: solid, 2px;
@@ -44,9 +44,9 @@ details {
 
 summary {
     background-color: #2a2a2a;
-    padding: 10px;
-    border-radius: 8px;
+    padding: 20px;
     font-size: 20px;
+    border-radius: 8px;
     transition: color 1s, background-color 1s;
     list-style: none;
 }
