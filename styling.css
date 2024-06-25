@@ -14,6 +14,7 @@ body {
 /* Paragraph styling */
 p {
     margin: 40px;
+    line-spacing: 1.2;
 }
 
 /* Link styling */
@@ -24,9 +25,22 @@ a {
 /* Title styling */
 .title {
     text-align: center;
-    margin: 20px 20px;
-    font-size: 40px;
+    margin: 40px;
+    font-size: 36px;
     margin-top: 116px; /* To avoid hitting navbar */
+}
+
+/* Image styling */
+
+img {
+  border: 2px solid #1a1a1a;
+  border-radius: 4px;
+}
+
+#center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Blog post styling */
@@ -47,7 +61,7 @@ summary {
     transition: background-color 1s, color 1s;
     list-style: none;
     background-color: #3a3a3a;
-    border-radius: 2px 2px 0px 0px;
+    border-radius: 6px 6px 0px 0px;
 }
 
 summary:hover {
