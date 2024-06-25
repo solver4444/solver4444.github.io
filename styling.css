@@ -20,6 +20,7 @@ p {
 /* Link styling */
 a {
     color: #3e8ded;
+    overflow: hidden;
 }
 
 /* Title styling */
