@@ -20,6 +20,32 @@
 
     <p>Below I will be blogging about the various projects that I am working on or have worked that I logged into Hack Club Arcade.</p>
 
+
+
+    <details>
+        <summary>
+            Simplified Models for FTC
+        </summary>
+        <p id="blog-text">
+As I've been CADding for FTC for almost a year now, I've started to have issues with my laptop running out of memory for multiple Onshape tabs/documents open at once, and overall have experienced laggy motions for intense assemblies. This problem only gets worse when I CAD on school computers. 
+        </p>
+        <p id="blog-text">
+Upon some investigation, I found that the motors, servos, and electronics are the majority of the primitives (the details Onshape renders, majority of which are triangles since nearly everything rendered including curves are converted to triangles for the purpose of the software). While companies create CAD files with as much detail as possible, users almost never actually need to understand the internals, need the various curved edges, threads visualized, and more. Hence, I created a set of those parts that include only what users really need, but still have the correct weights and are dimensionally accurate (where it matters - internals, curves, and more might not be perfect if it isn't useful to the part). Here is the list of the parts I currently have modeled:
+            <ul>
+                <li>All goBILDA 8mm REX motors and bare motors (all with the option for LS low profile encoder caps - both side power and normal versions)</li>
+                <li>All 6 goBILDA standard sized servos</li>
+                <li>All Axon servos</li>
+                <li>REV Control/Expansion Hub</li>
+                <li>REV Servo Module</li>
+            </ul>
+If you have any suggestions or feedback, please let me know via @featurescript on Discord or a message on the Hack Club Slack.
+        </p>
+        <p id="blog-text">
+Here is the link to the document: <a href="https://cad.onshape.com/documents/d9be4433b7029ab5b4f75f10/w/1a5d73ef77f67b265c6b7836/e/28e691c8afb3eccb754f41c1">https://cad.onshape.com/documents/d9be4433b7029ab5b4f75f10/w/1a5d73ef77f67b265c6b7836/e/28e691c8afb3eccb754f41c1</a>
+        </p>
+        <img src="/images/simplifiedmodels.png" alt="Simplified Models for FTC">
+    </details>
+    
     <details>
         <summary>
             solver4444.github.io (this website!) - 6.23.24
@@ -31,6 +57,6 @@ I thought it would only be fitting that I start this blog with this website itse
 I keep coming back to improving it and spending more time though because I really enjoy the idea of doing what I'm doing right now - just writing all my thoughts in a blog. The next features you can be expecting are a search bar to search blog posts and actually updating the home page with other non-related blog posts.
         </p>
     </details>
-    
+
 </body>
 </html>
